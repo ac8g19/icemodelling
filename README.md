@@ -1,8 +1,6 @@
 # icemodelling
 Sample input scripts and analysis scripts for use alongside the models on Zenodo (https://doi.org/10.5281/zenodo.4415835)
 
-Topology file included in the input scripts branch (file name: full_27_heavy.psf)
-
 Forcefields used: CHARMM 36 (toppar_c36_jul17)
 
 Files included: 
