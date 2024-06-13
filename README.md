@@ -17,7 +17,7 @@ Files included:
     
     watertracker.py - This is the python script used for tracking the internal waters in the hollow centre of the apoferritin molecule. MDAnalysis required
     
-    Energy_Time.ipynb - Thiis jupyter notebook reads in a text file of total energies and writes the plot 
+    Energy_Time.ipynb - This jupyter notebook reads in a text file of total energies and writes the plot 
     
     Density_Time.ipynb - This jupyter notebook reads in a text file of system volumes, converts to density, and writes the plot
     
