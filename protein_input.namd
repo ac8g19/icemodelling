@@ -191,32 +191,3 @@ set totsimtime      125000
 run [expr $totsimtime - $firsttime]
 }
 
-
-# FEP calculation
-if {0} {
-
-source                  ../data/fep.tcl
-
-alch                    on
-alchType                FEP
-alchFile                ../data/wb_BEN2OXY.fep
-alchCol                 B
-alchOutFile             $outputname.fepout
-alchOutFreq             10
-
-alchVdwLambdaEnd        1.0
-alchElecLambdaStart     0.0
-alchVdWShiftCoeff       5.0
-alchDecouple            on
-
-# First minimization
-set minstep   1000
-set equstep 500000
-runFEPmin 0.0 0.0 0.0 $equstep $minstep $temperature
-
-## for FEP sampling
-#alchEquilSteps          500
-#set numSteps            5000000
-#runFEP 0.0 1.0 1.0 $numSteps
-
-}
